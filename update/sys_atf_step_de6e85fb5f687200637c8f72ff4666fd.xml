@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Impersonate a user</description>
+        <display_name>Impersonate</display_name>
+        <inputs/>
+        <order>4</order>
+        <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-01 23:53:53</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>de6e85fb5f687200637c8f72ff4666fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="DemoScope" source="x_demoscope">60f1d2065f647200637c8f72ff466662</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DemoScope">60f1d2065f647200637c8f72ff466662</sys_scope>
+        <sys_update_name>sys_atf_step_de6e85fb5f687200637c8f72ff4666fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-01 23:53:53</sys_updated_on>
+        <table/>
+        <test display_value="Demo">48fc89bb5f687200637c8f72ff4666f0</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=de6e85fb5f687200637c8f72ff4666fd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>de6e85fb5f687200637c8f72ff4666fd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-01 23:53:53</sys_created_on>
+        <sys_id>126e85fb5f687200637c8f72ff4666ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-01 23:53:53</sys_updated_on>
+        <value/>
+        <variable display_value="">586e2c4253e0220002c6435723dc3415</variable>
+    </sys_variable_value>
+</record_update>
